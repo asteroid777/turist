@@ -3,6 +3,7 @@ body {
 margin:0;
 padding:0;
 background-color: #888888;
+font-family: "Helvetica           Neue",Helvetica,Arial,sans-serif;    
 }
 .apa {
     background-color: #722872;
@@ -17,8 +18,36 @@ img {
     height: 56px;
 }
 .content {
+    font-size: 18px;
+    line-height: 30px;
     background-color:#aaaaaa;
     width: 1026px;
-    height:540px;
+    height:390px;
     margin: 0 auto;
+    padding: 1px;
+}
+.image {
+    background-size: contain;
+    background-image:  url(img/avatar.png);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 175px;
+}
+.text {
+    background-color: aquamarine;
+    box-sizing: border-box;
+    padding: 90px;
+    width: 670px;
+    height: 390px;
+    text-align: right;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+}
+.ooo {
+    float: right;
+}     
+        
 }
