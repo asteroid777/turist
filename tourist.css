@@ -124,4 +124,12 @@ img {
 .foto6 {
    
 }
+.clearfix {
+    padding: 1px;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
 
