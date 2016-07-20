@@ -33,21 +33,95 @@ img {
     width: 250px;
     border-radius: 50%;
     float: right;
-    margin-right: 175px;
+    margin-right: 58px;
+    margin-top: 58px;
 }
+
 .text {
-    background-color: aquamarine;
-    box-sizing: border-box;
-    padding: 90px;
-    width: 670px;
-    height: 390px;
+    width: 667px;
+    height: 244px;
+    float: left;
+    color: #ffffff;
     text-align: right;
-    color: white;
     line-height: 30px;
     font-size: 20px;
+    padding-top: 55px;
 }
-.ooo {
-    float: right;
-}     
+.line {
+    width: 457px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-top: 240px;
+    margin-left: 155px;
+}
+.texx {
+    float: left;
+    width: 667px;
+    text-align:right;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: -50px;
+}
+.content1 {
+    width: 1026px;
+    height: 2000px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #eeeeee;
+}
+.portfolio {
+    display: block;
+    padding: 65px 430px;
+    width: 1026px;
+    color:#888888;
+    font-size: 28px;
+
+} 
+.foto1 {
+    width: 415px;
+    height: 277px;
+    background-image: url(img/600x393xYMCA-Realtor-Donation-3.jpeg.pagespeed.ic.vJV7L8HzF-.jpg);
+    background-size: contain;
+    float: left;
+    margin-left: 72px;
         
 }
+.foto2 {
+    width: 415px;
+    height: 300px;
+    background-image: url(img/800x578xwebcaballero.jpg.pagespeed.ic.7AxjjAD47G.jpg);
+    background-size: contain;
+    float: right;
+    margin-right: 72px;
+}
+.foto3 {
+    width: 415px;
+    height: 300px;
+    background-image: url(img/800x578xwebmarqas.jpg.pagespeed.ic.hgTlmc_JaU.jpg);
+    background-size: contain;
+    float: left;
+    margin-left: 72px;
+    margin-top: 70px;
+}
+.foto4 {
+     width: 415px;
+    height: 300px;
+    background-image: url(img/800x578xwebbrandaxis.jpg.pagespeed.ic.TNw8Gz9_wi.jpg);
+    background-size: contain;
+    float: right;
+    margin-right: 72px;
+    margin-top: 40px;
+    
+}
+.foto5 {
+    width: 415px;
+    height: 335px;
+    background-image:url(img/1280x1024xpanacea1.jpg.pagespeed.ic.U4CT6IHqvb.jpg);
+    background-size: contain;
+    float: left;
+    margin-top: 40px;
+}
+.foto6 {
+   
+}
+
