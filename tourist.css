@@ -1,5 +1,5 @@
-
-body {
+html { overflow-x:  hidden; }
+body {   
 margin:0;
 padding:0;
 background-color: #888888;
@@ -9,6 +9,7 @@ font-family: "Helvetica           Neue",Helvetica,Arial,sans-serif;
     background-color: #722872;
     width: 100%;
     height: 80px;
+    position: fixed;
 }
 .qlip {
     padding: 12px 135px;
@@ -24,7 +25,7 @@ img {
     width: 1026px;
     height:390px;
     margin: 0 auto;
-    padding: 1px;
+    padding-top: 80px;
 }
 .image {
     background-size: contain;
@@ -64,7 +65,6 @@ img {
 }
 .content1 {
     width: 1026px;
-    height: 2000px;
     margin: 0 auto;
     padding: 1px;
     background-color: #eeeeee;
@@ -101,7 +101,7 @@ img {
     background-size: contain;
     float: left;
     margin-left: 72px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .foto4 {
      width: 415px;
@@ -120,16 +120,36 @@ img {
     background-size: contain;
     float: left;
     margin-top: 40px;
+    margin-left: 72px;
 }
 .foto6 {
+    width: 415px;
+    height: 300px;
+    background-image:url(img/800x578xwebgatomalo.jpg.pagespeed.ic.eB3GsK-VgC.jpg);
+    float: right;
+    background-size: contain;
+    margin-right: 72px;
+    margin-top: 40px;
    
 }
 .clearfix {
-    padding: 1px;
+    padding: 0px;
 }
 .clearfix:after {
     display: block;
     content: "";
     clear: both;
+}
+.line1 {
+    width: 1026px;
+    height: 2px;
+    background-color: #d1d1d1;
+    margin-top: 58px;
+    padding: 0px;
+    float: left;
+}
+.fa-code {
+    color: #ffffff;
+    font-size: 33px;
 }
 
