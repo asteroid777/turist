@@ -319,7 +319,30 @@ textarea:-ms-input-placeholder {
     font-size: 30px;
     color: #aaaaaa;
     opacity: 1;
-}    
+}  
+form {
+    float: left;
+}
+
+.info {
+    float: right;
+    width: 390px;
+    height: 620px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #666666;
+   
+}
+
+button {
+    width: 60px;
+    height: 35px;
+    margin-left: 72px;
+    margin-top: 38px;
+    font-size: 20px;
+    color: #666666;
+}
+
 
   
     
